@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/timer.css">
+  <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="counter">
+  <div class="counter-wrap">
+    <div class="top">
+        <div class="circles marginleft"></div>
+        <div class="circles"></div>
+        <div class="circles"></div>
+        <div class="title marginright"><h1>Mini Timer</h1></div>
+    </div>
+    <div class="content">
+        <div class="controls">
+          <div class="c-btn start-outer marginleft">
+            <div class="control-inner">
+              <div id="start"></div>
+            </div>
+          </div>
+          <div class="c-btn pause-outer">
+            <div class="control-inner">
+              <div id="pause"></div>
+            </div>
+          </div>
+          <div class="c-btn restart-outer">
+            <div class="control-inner">
+                <img id="restart" src="img/restart.png" alt="restart"/>
+                <!--
+                <div id="restart">restart</div>
+-->
+            </div>
+          </div>
+        </div>
+        <div class="duration">
+          <div id="time-nums">02:42:30</div>
+          <div class="time-num-titles">
+            <div class="time-title-hour">HOUR</div>
+            <div class="time-title-min">MIN</div>
+            <div class="time-title-sec">SEC</div>
+          </div>
+        </div>
+    </div>
+    <div class="timer-bottom">
+      <div class="hmargin">
+        <div class="total-time-title">Total time</div>
+        <div id="total-time">2:42:30</div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="js/timer.js"></script>
+</body>
+</html>
